@@ -13,14 +13,14 @@ class MainApp extends StatelessWidget {
   }
 }
 
-class HomePageState extends StatefulWidget {
-  const HomePageState({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<HomePageState> createState() => _HomePageStateState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageStateState extends State<HomePageState> {
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
